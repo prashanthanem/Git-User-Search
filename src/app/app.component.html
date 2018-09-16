@@ -1,0 +1,17 @@
+<navbar></navbar>
+<br/><br/><br/>
+<div class="container">
+    <div class="jumbotron">
+      <h1>Search Github Users</h1>
+      <p class="lead">Enter a username to search a user profile and repository.</p>
+      <input type="text" name="username" class="form-control" placeholder="Github Username" #searchval /><br/>
+      <div class="text-center">
+          <input class="btn btn-lg btn-primary" value="Search" (click)="onSearch(searchval.value)"/>
+      </div>      
+    </div>
+  <users *ngIf="user" [user]="user"></users>
+  <errors *ngIf="error"></errors>  
+</div>
+<br/><br/><br/>
+
+
