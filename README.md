@@ -1,6 +1,18 @@
-# GithubUi
+# GithubUI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+
+This Project will provide the simple search funtionality for Github Users.
+
+The following technologies have been used for this project :
+
+1. Bootstrap -- To decorate the Angular Components.
+2. Angular Firebase -- For hosting.
+3. Github users service API -- As a backend service.
+4. Angular 6 CLI -- As a Frontend Framework.
+
+## Demo
+Do you want to see app in action? Visit https://githubusersearch-6962c.firebaseapp.com/!
 
 ## Development server
 
